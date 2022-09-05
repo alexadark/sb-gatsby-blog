@@ -5001,6 +5001,13 @@ functions-have-names@^1.2.2:
   resolved "https://registry.yarnpkg.com/functions-have-names/-/functions-have-names-1.2.3.tgz#0404fe4ee2ba2f607f0e0ec3c80bae994133b834"
   integrity sha512-xckBUXyTIqT97tq2x2AMb+g163b5JFysYk0x4qxNFwbfQkmNZoiRHb6sPzI9/QV33WeuvVYBUIiD4NzNIyqaRQ==
 
+gatsby-awesome-pagination@^0.3.8:
+  version "0.3.8"
+  resolved "https://registry.yarnpkg.com/gatsby-awesome-pagination/-/gatsby-awesome-pagination-0.3.8.tgz#e50f048ed9b25aecf5e2cd7269cdbd77f168301f"
+  integrity sha512-Bnf2rncqjyhQeye8w+OVK8wmgu/Y77HI8Po05oEqbCSd+fMd0uGDv6ZhKH7UU/xcTv2cbJm7ie+Px9t41ngAxg==
+  dependencies:
+    lodash "^4.17.21"
+
 gatsby-cli@^4.22.0:
   version "4.22.0"
   resolved "https://registry.yarnpkg.com/gatsby-cli/-/gatsby-cli-4.22.0.tgz#c59ee913f9644c686bba70ad8a0844bcbc1d2593"
@@ -8855,6 +8862,11 @@ storyblok-js-client@^4.5.2, storyblok-js-client@^4.5.6:
   version "4.5.6"
   resolved "https://registry.yarnpkg.com/storyblok-js-client/-/storyblok-js-client-4.5.6.tgz#caab0bb1ead8618f84afcc35be9305883d85e628"
   integrity sha512-S0cXKkEqGDibD32K48FFodjeu/+eF++nrHhrLzo/bKxrnyQiPChPccFAnzsJCQ6uMvRuVGZzjKwM5/sMeBRthg==
+
+storyblok-rich-text-react-renderer@^2.6.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/storyblok-rich-text-react-renderer/-/storyblok-rich-text-react-renderer-2.6.0.tgz#e2fe7765f9b4e4926bbe61887f0d1e180f1a0611"
+  integrity sha512-XFF6YnVJm2RpxvLTrDuBi+i0Oes/nIvY9LwR9ADNV/M596+a7j7YV6uzz+kTU3GFDXCXF2Th3q2hmcblXCTDWg==
 
 stream-parser@~0.3.1:
   version "0.3.1"

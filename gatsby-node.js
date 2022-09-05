@@ -1,7 +1,7 @@
 const path = require("path");
 const createPages = require("./create/createPages");
-// const createPosts = require("./create/createPosts");
-
+const createPosts = require("./create/createPosts");
+//
 exports.onCreateWebpackConfig = ({ actions }) => {
   actions.setWebpackConfig({
     resolve: {
@@ -15,5 +15,5 @@ exports.onCreateWebpackConfig = ({ actions }) => {
 
 exports.createPages = async ({ actions, graphql }) => {
   await createPages({ actions, graphql });
-  // await createPosts({ actions, graphql });
+  await createPosts({ actions, graphql });
 };
