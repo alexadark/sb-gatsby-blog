@@ -1,11 +1,21 @@
 import React from "react";
 import Layout from "~/components/Layout";
-import { useStoryblokState } from "gatsby-source-storyblok";
+import {
+  useStoryblokState,
+  StoryblokComponent,
+  storyblokEditable,
+} from "gatsby-source-storyblok";
 
 const Post = ({ pageContext }) => {
-  const { content } = useStoryblokState(pageContext.story);
-  console.log(content);
-  return <Layout>Post</Layout>;
+  const story = useStoryblokState(pageContext.story);
+
+  return (
+    <Layout>
+      <div {...storyblokEditable(story.content)}>
+        <StoryblokComponent blok={story.content} key={story._uid} />
+      </div>
+    </Layout>
+  );
 };
 
 export default Post;
