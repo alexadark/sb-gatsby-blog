@@ -1,0 +1,33 @@
+{
+  "name": "storyblok-presentation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "storyblok-presentation",
+  "author": "Alexandra Spalato",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "ENABLE_GATSBY_REFRESH_ENDPOINT=true gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^4.22.0",
+    "gatsby-plugin-image": "^2.22.0",
+    "gatsby-plugin-sharp": "^4.22.0",
+    "gatsby-source-filesystem": "^4.22.0",
+    "gatsby-source-storyblok": "^4.1.0",
+    "gatsby-transformer-sharp": "^4.22.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.8",
+    "gatsby-plugin-postcss": "^5.22.0",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8"
+  }
+}
